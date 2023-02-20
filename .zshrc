@@ -39,7 +39,6 @@ alias vlime='sbcl --load ~/.local/share/nvim/site/pack/packer/start/vlime/lisp/s
 alias webcam="ffplay /dev/video0"
 alias emcc="/usr/lib/emscripten/./emcc"
 
-export GIT_TOKEN="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"
 export NODE_OPTIONS=--openssl-legacy-provider
 
 xset r rate 300 50
