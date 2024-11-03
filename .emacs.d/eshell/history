@@ -1,8 +1,0 @@
-Desexitktop  Documents  Downloads  Music  Org  Pictures  Public  Templates  Videos  emacs
-cc cexitc
-ls
-cd ..
-m,ake
-make
-ls
-pip3 install epc

@@ -1,1 +1,0 @@
-#s(lsp-session ("/home/gver/Documents/MSc/Embedded" "/home/gver/Documents/Dimi" "/home/gver/Documents/Projects/text_editor") nil #s(hash-table size 65 test equal rehash-size 1.5 rehash-threshold 0.8125 data ()) #s(hash-table size 65 test equal rehash-size 1.5 rehash-threshold 0.8125 data ()) #s(hash-table size 65 test equal rehash-size 1.5 rehash-threshold 0.8125 data ()))

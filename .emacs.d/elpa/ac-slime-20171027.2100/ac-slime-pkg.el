@@ -1,2 +1,0 @@
-;;; Generated package description from ac-slime.el  -*- no-byte-compile: t -*-
-(define-package "ac-slime" "20171027.2100" "An auto-complete source using slime completions" '((auto-complete "1.4") (slime "2.9") (cl-lib "0.5")) :commit "a91f664510d3da24b02e87e4aa59d049483a6529" :authors '(("Steve Purcell" . "steve@sanityinc.com")) :maintainer '("Steve Purcell" . "steve@sanityinc.com") :url "https://github.com/purcell/ac-slime")
