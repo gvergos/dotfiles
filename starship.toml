@@ -1,0 +1,200 @@
+add_newline = false
+command_timeout = 1200
+format = "[󱞬](bold #F58427) $all"
+
+# Prompt symbol with gradient-like feel
+[character]
+success_symbol = "[❯](bold green)[❯](bold blue)[❯](bold purple)"
+error_symbol = "[✖ ](bold red)"
+vimcmd_symbol = "[ ](bold yellow)"
+
+# Directory with powerline separators
+[directory]
+style = "fg:#39D4AD bold italic dimmed"
+format = "[   $path ]($style)"
+truncation_length = 2
+truncate_to_repo = true
+read_only = " "
+
+# Node.js
+[nodejs]
+symbol = "  "
+style = "bold fg:#4ADE80"
+format = "[$symbol($version )]($style)"
+
+# Rust
+[rust]
+symbol = " "
+style = "bold fg:#F87171"
+format = "[$symbol($version )]($style)"
+
+# Python
+[python]
+symbol = " "
+style = "bold fg:#FACC15"
+pyenv_version_name = true
+format = "[$symbol($version )]($style)"
+
+# Time bubble
+[time]
+style = "fg:#A5B4FC"
+format = "[🕒 $time]($style) "
+
+# Battery with dramatic flair
+[battery]
+full_symbol = ""
+charging_symbol = "⚡"
+discharging_symbol = "💣"
+
+[[battery.display]]
+threshold = 40
+style = "bold fg:#F87171"
+
+# Shell indicator orb
+[shell]
+format = "[ $indicator]($style) "
+bash_indicator = "bash"
+zsh_indicator = "zsh"
+style = "bold fg:#7DD3FC"
+
+# Memory usage glowing
+[memory_usage]
+threshold = 60
+symbol = " "
+style = "bold fg:#F472B6"
+format = "[$symbol$usage]($style) "
+
+# Extras: Rainbow separator + weather module placeholder
+[custom.separator]
+command = "echo 󱓞 " 
+when = "true"
+format = "[$output](bold #C9DE26 ) "
+
+[aws]
+symbol = " "
+
+[buf]
+symbol = " "
+
+[bun]
+symbol = " "
+
+[c]
+symbol = " "
+
+[cmake]
+symbol = " "
+
+[conda]
+symbol = " "
+
+[crystal]
+symbol = " "
+
+[dart]
+symbol = " "
+
+[deno]
+symbol = " "
+
+[docker_context]
+symbol = " "
+
+[elixir]
+symbol = " "
+
+[elm]
+symbol = " "
+
+[fennel]
+symbol = " "
+
+[fossil_branch]
+symbol = " "
+
+[gcloud]
+symbol = " "
+
+[git_branch]
+symbol = " "
+
+[git_commit]
+tag_symbol = '  '
+
+[golang]
+symbol = " "
+
+[gradle]
+symbol = " "
+
+[guix_shell]
+symbol = " "
+
+[haskell]
+symbol = " "
+
+[haxe]
+symbol = " "
+
+[hg_branch]
+symbol = " "
+
+[hostname]
+ssh_symbol = " "
+
+[java]
+symbol = " "
+
+[julia]
+symbol = " "
+
+[kotlin]
+symbol = " "
+
+[lua]
+symbol = " "
+
+[meson]
+symbol = "󰔷 "
+
+[nim]
+symbol = "󰆥 "
+
+[nix_shell]
+symbol = " "
+
+[ocaml]
+symbol = " "
+
+[os.symbols]
+Arch = " "
+
+[package]
+symbol = "󰏗 "
+
+[perl]
+symbol = " "
+
+[php]
+symbol = " "
+
+[pijul_channel]
+symbol = " "
+
+[rlang]
+symbol = "󰟔 "
+
+[ruby]
+symbol = " "
+
+[scala]
+symbol = " "
+
+[status]
+symbol = " "
+
+[swift]
+symbol = " "
+
+[zig]
+symbol = " "
